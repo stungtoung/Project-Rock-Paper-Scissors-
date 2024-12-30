@@ -66,16 +66,19 @@ console.log("Your Score is:", win, "Win", loss, "Loss", draw, "Draw");
                 alert("It's a Draw~!");
                 draw ++;
                 console.log("Your Score is:", win, "Win", loss, "Loss", draw, "Draw");
+                alert("Your Score is: " + win + " Win, " + loss +  " Loss, " + draw +  " Draw.");
                 break;
             case 2:
                 alert("You Lose~!");
                 loss ++;
                 console.log("Your Score is:", win, "Win", loss, "Loss", draw, "Draw");
+                alert("Your Score is: " + win + " Win, " + loss +  " Loss, " + draw +  " Draw.");
                 break;  
             case 3:
                 alert("You Win~!");
                 win ++;
                 console.log("Your Score is:", win, "Win", loss, "Loss", draw, "Draw");
+                alert("Your Score is: " + win + " Win, " + loss +  " Loss, " + draw +  " Draw.");
                 break;  
         }
     //user choice is paper
@@ -85,16 +88,19 @@ console.log("Your Score is:", win, "Win", loss, "Loss", draw, "Draw");
                 alert("You Win~!");
                 win ++;
                 console.log("Your Score is:", win, "Win", loss, "Loss", draw, "Draw");
+                alert("Your Score is: " + win + " Win, " + loss +  " Loss, " + draw +  " Draw.");
                 break;
             case 2:
                 alert("It's a Draw~!");
                 draw ++;
                 console.log("Your Score is:", win, "Win", loss, "Loss", draw, "Draw");
+                alert("Your Score is: " + win + " Win, " + loss +  " Loss, " + draw +  " Draw.");
                 break;  
             case 3:
                 alert("You Lose~!");
                 loss ++;
                 console.log("Your Score is:", win, "Win", loss, "Loss", draw, "Draw");
+                alert("Your Score is: " + win + " Win, " + loss +  " Loss, " + draw +  " Draw.");
                 break;  
         }
     //user choice is scissors
@@ -104,16 +110,19 @@ console.log("Your Score is:", win, "Win", loss, "Loss", draw, "Draw");
                 alert("You Lose~!");
                 loss ++;
                 console.log("Your Score is:", win, "Win", loss, "Loss", draw, "Draw");
+                alert("Your Score is: " + win + " Win, " + loss +  " Loss, " + draw +  " Draw.");
                 break;
             case 2:
                 alert("You Win~!");
                 win ++;
                 console.log("Your Score is:", win, "Win", loss, "Loss", draw, "Draw");
+                alert("Your Score is: " + win + " Win, " + loss +  " Loss, " + draw +  " Draw.");
                 break;  
             case 3:
                 alert("It's a Draw~!");
                 draw ++;
                 console.log("Your Score is:", win, "Win", loss, "Loss", draw, "Draw");
+                alert("Your Score is: " + win + " Win, " + loss +  " Loss, " + draw +  " Draw.");
                 break;  
         }
     } else {
